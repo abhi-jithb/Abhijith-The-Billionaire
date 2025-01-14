@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaire Motivation App - Abhijith</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./assets/abhijith_favicon.ico" type="image/x-icon">
+
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4 shadow-md">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-yellow-500">Abhijith's Billionaire Vision</h1>
+            <p class="text-sm italic">"Build. Focus. Achieve."</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-12">
+        <div class="flex flex-col items-center">
+            <!-- Avatar Image -->
+            <div class="w-54 h-54 rounded-full overflow-hidden shadow-lg">
+                <img src="./assets/abhi.jpg" alt="Abhijith's Avatar" class="object-cover w-full h-full bg-gray-900">
+            </div>
+            <h2 class="text-4xl font-extrabold text-yellow-500 mt-6 mb-4">"I, Abhijith, Will Build a Billion-Dollar Empire"</h2>
+            <p class="text-lg text-gray-300">Every day, I step closer to my dreams through focus and hard work.</p>
+        </div>
+        <div class="mt-8 flex justify-center gap-4">
+            <button class="bg-yellow-500 text-black px-6 py-3 rounded-lg shadow-lg" onclick="playMorningAudio()">Morning Audio</button>
+            <button class="bg-yellow-500 text-black px-6 py-3 rounded-lg shadow-lg" onclick="playNightAudio()">Night Audio</button>
+        </div>
+    </section>
+    
+    
+
+    <!-- Vision Board Section -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Abhijith's Vision Board</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center">
+            <img src="./assets/car.jpg" alt="Luxury Car" class="rounded-lg shadow-md">
+            <img src="./assets/dream_house.jpg" alt="Dream House" class="rounded-lg shadow-md">
+            <img src="./assets/jet.jpg" alt="Private Jet" class="rounded-lg shadow-md">
+            <img src="./assets/businesss.jpg" alt="Thriving Business" class="rounded-lg shadow-md">
+        </div>
+    </section>
+
+    <!-- Affirmation Banner -->
+    <section class="bg-gray-800 py-6 text-center">
+        <h4 class="text-xl font-semibold">Daily Affirmations</h4>
+        <p class="text-yellow-500 text-lg mt-2">"I, Abhijith, am disciplined and focused."</p>
+    </section>
+
+    <!-- Billionaire Principles -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-6">Billionaire Principles by Abhijith</h3>
+        <ul class="list-disc list-inside text-gray-300 text-lg grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">     
+            <li>Focus on long-term gains.</li>
+            <li>Invest in learning and growth.</li>
+            <li>Take calculated risks.</li>
+            <li>Stay disciplined and consistent.</li>
+        </ul>
+    </section>
+
+    <!-- Daily Rituals -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-6">Abhijith's Daily Rituals</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h4 class="text-2xl font-bold text-yellow-500 mb-4">Morning</h4>
+                <ul class="list-disc list-inside text-gray-300">
+                    <li>Wake up @ 5am</li>
+                    <li>Exercise</li>
+                    <li>Meditate</li>
+                    <li>Read</li>
+                    <li>Plan the Day</li>
+                    <li>Listen to Morning Audio</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-2xl font-bold text-yellow-500 mb-4">Evening</h4>
+                <ul class="list-disc list-inside text-gray-300">
+                    <li>Reflect on the Day (9pm)</li>
+                    <li>Set Goals for Tomorrow</li>
+                    <li>Practice Gratitude</li>
+                    <li>Listen to Morning Audio</li>
+                    <li>Sleep @10:30pm</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspirational Role Models -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Abhijith's Inspirational Role Models</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <img src="./assets/sundar.jpeg" alt="Sundar Pichai" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <p class="font-bold">Sundar Pichai</p>
+                <p class="text-sm text-gray-400 italic">"Doesn't matter where you are coming from. What matters is what you have."</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <img src="./assets/steve.jpeg" alt="Steve Jobs" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <p class="font-bold">Steve Jobs</p>
+                <p class="text-sm text-gray-400 italic">"Think outside the outside the box."</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <img src="./assets/elon.jpeg" alt="Elon Musk" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <p class="font-bold">Elon Musk</p>
+                <p class="text-sm text-gray-400 italic">"Be the best Manager of yourself."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books to Read -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Books Abhijith is Reading</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <p class="font-bold">The Hard thing about hard things</p>
+                <p class="text-sm text-gray-400">Ben Horowiz</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <p class="font-bold">Do it Today</p>
+                <p class="text-sm text-gray-400">Darius Foroux</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <p class="font-bold">Rich Dad Poor Dad</p>
+                <p class="text-sm text-gray-400">Robert Kiyosaki</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="bg-gray-800 py-12 text-center">
+        <h4 class="text-xl font-semibold">Days Until Abhijith's First Million:</h4>
+        <p class="text-4xl font-bold text-yellow-500 mt-2">365</p>
+    </section>
+
+    <!-- Quote of the Day -->
+    <section class="py-12 text-center">
+        <h4 class="text-xl font-semibold">Quote of the Day</h4>
+        <p class="text-yellow-500 text-lg mt-2">"Success is not final; failure is not fatal. It is the courage to continue that counts."</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-4 text-center">
+        <p class="text-sm text-gray-500">"Stay focused, stay hungry. - Abhijith"</p>
+    </footer>
+
+    <!-- Background Audio -->
+    <audio id="morningAudio" src="./assets/mrg.m4a"></audio>
+    <audio id="nightAudio" src="./assets/night.mp3"></audio>
+
+    <script>
+        function playMorningAudio() {
+            document.getElementById('morningAudio').play();
+        }
+
+        function playNightAudio() {
+            document.getElementById('nightAudio').play();
+        }
+    </script>
+</body>
+</html>
